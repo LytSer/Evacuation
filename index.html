@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="robots" content="index, follow">
+    <meta name="google" content="notranslate">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="description" content="">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css?_v=20230402215641" />
+    <link rel="stylesheet" href="css/style.min.css?_v=20230402215641">
+    <title>Evacuation | Home</title>
+</head>
+<body>
+
+    <div class="page">
+        <div class="mobile-menu" id="mobile-menu">
+            <nav class="mobile-menu__nav">
+                <a href="#" class="mobile-menu__nav-item">О нас</a>
+                <a href="#" class="mobile-menu__nav-item">Цены</a>
+                <a href="#" class="mobile-menu__nav-item">Наши машины</a>
+                <a href="#" class="mobile-menu__nav-item">Контакты</a>
+            </nav>
+        </div>
+        <header class="header">
+            <div class="container">
+                <div class="header__inner">
+                    <img class="header__logo" src="./img/towTruck-logo.svg" alt="">
+        
+                    <nav class="header__nav">
+                        <a href="#" class="header__nav-item">О нас</a>
+                        <a href="#" class="header__nav-item">Цены</a>
+                        <a href="#" class="header__nav-item">Наши машины</a>
+                        <a href="#" class="header__nav-item">Контакты</a>
+                    </nav>
+        
+                    <img class="burger" id="menu-btn" src="./img/burger-menu.svg" alt="">
+                </div>        
+            </div>
+        </header>
+
+        
+        <!-- About -->
+        <section class="about">
+            <div class="container">
+                <div class="about__info">
+                    <h2 class="about__title">Эвакуатор Москва и Московская область</h2>
+                    <p class="about__text">
+                        Наша служба круглосуточной эвакуации предлагает недорогие услуги транспортировки любого автомобиля. В наличии 20 единиц спецтехники, манипулятор с краном, бриль со сдвижной платформой и авто с частичной погрузкой. Возможно заказать перевозку легковых машин, минивенов, микроавтобусов, спецтехники и грузов по выгодным ценам и лучшим тарифам.
+                    </p>
+        
+                    <button class="btn">Связаться с нами</button>
+                </div>    
+            </div>    
+        </section>
+        
+        <!-- Calculator -->
+        <div class="container">
+            <section class="calc-price">
+                <form class="calc-price__form" id="form">
+                    <h2 class="calc-price__title">Рассчитать стоимость</h2>
+        
+                    <h3 class="calc-price__subtitle">Тип автомобиля</h3>
+                    <div class="calc-price__cars">
+                        <label class="cars-label">
+                            <input type="radio" class="cars-input" name="cars" value="1200" />
+                            <div class="cars-name">Мотоцикл</div>
+                        </label>
+                        <label class="cars-label">
+                            <input type="radio" class="cars-input" name="cars" value="1500" checked/>
+                            <div class="cars-name">Легковой а/м</div>
+                        </label>
+                        <label class="cars-label">
+                            <input type="radio" class="cars-input" name="cars" value="1600" />
+                            <div class="cars-name">Минивен</div>
+                        </label>
+                        <label class="cars-label">
+                            <input type="radio" class="cars-input" name="cars" value="1750" />
+                            <div class="cars-name">Микроавтобус</div>
+                        </label>
+                        <label class="cars-label">
+                            <input type="radio" class="cars-input" name="cars" value="2000" />
+                            <div class="cars-name">Грузовой а/м</div>
+                        </label>
+                    </div>
+        
+                    <h3 class="calc-price__subtitle">Сколько колес заблокировано</h3>
+                    <div class="calc-price__wheels">
+                        <label class="wheels-label">
+                            <input type="radio" class="wheels-input" name="wheels" value="500" />
+                            <div class="wheels-name">Одно</div>
+                        </label>
+                        <label class="wheels-label">
+                            <input type="radio" class="wheels-input" name="wheels" value="650" />
+                            <div class="wheels-name">Два</div>
+                        </label>
+                        <label class="wheels-label">
+                            <input type="radio" class="wheels-input" name="wheels" value="700" />
+                            <div class="wheels-name">Три</div>
+                        </label>
+                        <label class="wheels-label">
+                            <input type="radio" class="wheels-input" name="wheels" value="750" />
+                            <div class="wheels-name">Четыре</div>
+                        </label>
+                    </div>
+        
+                    <h3 class="calc-price__subtitle">Тип эвакуатора</h3>
+                    <div class="calc-price__trucks">
+                        <label class="trucks-label">
+                            <input type="radio" class="trucks-input" name="trucks" value="1800" />
+                            <div class="trucks-name">с гидравлической лебедкой</div>
+                        </label>
+                        <label class="trucks-label">
+                            <input type="radio" class="trucks-input" name="trucks" value="1950" />
+                            <div class="trucks-name">с манипулятором</div>
+                        </label>
+                        <label class="trucks-label">
+                            <input type="radio" class="trucks-input" name="trucks" value="2100" />
+                            <div class="trucks-name">с прямой платформой</div>
+                        </label>
+                        <label class="trucks-label">
+                            <input type="radio" class="trucks-input" name="trucks" value="2250" />
+                            <div class="trucks-name">с ломаной лебедкой</div>
+                        </label>
+                    </div>
+        
+                    <div class="calc-price__total">
+                        <div class="calc-price__total-title">Стоимость:</div>
+                        <div class="calc-price__total-value">
+                            <span id="total-price">0</span>
+                            рублей
+                        </div>
+                    </div>
+                </form>
+            </section>
+        
+            <section class="our-cars">
+                <h2 class="our-cars__title">Наши машины</h2>
+                <div class="swiper mySwiper our-cars__slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <picture><source srcset="./img/slider/s1.webp" type="image/webp"><img class="our-cars__img" src="./img/slider/s1.jpg" alt=""></picture>
+                        </div>
+                        <div class="swiper-slide">
+                            <picture><source srcset="./img/slider/s2.webp" type="image/webp"><img class="our-cars__img" src="./img/slider/s2.jpg" alt=""></picture>
+                        </div>
+                        <div class="swiper-slide">
+                            <picture><source srcset="./img/slider/s3.webp" type="image/webp"><img class="our-cars__img" src="./img/slider/s3.jpg" alt=""></picture>
+                        </div>
+                        <div class="swiper-slide">
+                            <picture><source srcset="./img/slider/s4.webp" type="image/webp"><img class="our-cars__img" src="./img/slider/s4.jpg" alt=""></picture>
+                        </div>
+                        <div class="swiper-slide">
+                            <picture><source srcset="./img/slider/s5.webp" type="image/webp"><img class="our-cars__img" src="./img/slider/s5.jpg" alt=""></picture>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                  </div>
+            </section>
+        
+            <section class="contacts">
+                <h2 class="contacts__title">Контакты</h2>
+        
+                <p class="contacts__text">
+                    Вам не удастся заказать эвакуатор на более выгодных условиях. Наши цены на 15-20% ниже, чем у большинства конкурентов, а время ожидания даже в часы-пик составляет всего 20-30 минут. При этом с нами вы избавлены от любых рисков: мы гарантируем безопасность вверенных транспортных средств на всех этапах эвакуации, от погрузки до выгрузки в пункте назначения. Мы работаем 24 часа в сутки, без перерывов и выходных.
+                    Звоните, с удовольствием,
+                    ответим на любые вопросы.
+                </p>       
+        
+                <div class="contacts__wrapper">
+                    <a href="tel:+79991234567" class="contacts__item">
+                        <img src="./img/contacts/tel.svg" alt="">
+                    </a>
+                    <a href="#" class="contacts__item">
+                        <img src="./img/contacts/whatsapp.svg" alt="">
+                    </a>
+                    <a href="#" class="contacts__item">
+                        <img src="./img/contacts/telegram.svg" alt="">
+                    </a>
+                    <a href="#" class="contacts__item">
+                        <img src="./img/contacts/vk.svg" alt="">
+                    </a>
+                </div>
+            </section>
+        </div>
+
+        
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__inner">
+                    <div class="footer__info">
+                        <h3>Эвакуатор</h3>
+                        <img src="./img/towTruck-logo.svg" alt="" class="footer__logo">
+                    </div>            
+                    <span>© 2023 Copyright</span>
+                </div>
+            </div>
+        </footer>
+        
+        
+        <!-- Swiper -->
+        <script type="module">
+            import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.esm.browser.min.js'
+          
+            const swiper = new Swiper(".mySwiper", {
+                spaceBetween: 30,
+                centeredSlides: true,
+                autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+                },
+                pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+                }
+            })
+          </script>
+    </div>
+
+    <script src="js/app.min.js?_v=20230402215641"></script>
+</body>
+</html>
